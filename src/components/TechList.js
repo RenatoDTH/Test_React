@@ -11,7 +11,7 @@ function TechList() {
 
   return( 
   <div>
-      <ul date-testid="tech-list">
+      <ul data-testid='tech-list'>
         {techs.map(tech => <li key={tech}>{tech}</li>)}
       </ul>
       <button onClick={handleAddTech}>Adicionar</button>
